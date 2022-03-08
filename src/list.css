@@ -1,0 +1,12 @@
+ul {
+    list-style-type: none;
+}
+
+.list-item {
+    text-align: start;
+}
+
+.list-item:hover {
+    color: rgb(0, 171, 177);
+    cursor: pointer;
+}
