@@ -33,6 +33,17 @@
   color: #61dafb;
 }
 
+.app-bar {
+    background-color: #1e2025;
+    height: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
