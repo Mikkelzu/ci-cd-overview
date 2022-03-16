@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCheck, faCross, faLink, faXmark } from '@fortawesome/free-solid-svg-icons';
+import { faCheck, faLink, faXmark } from '@fortawesome/free-solid-svg-icons';
 import React, { useCallback } from 'react'
 import './list.css'
 
