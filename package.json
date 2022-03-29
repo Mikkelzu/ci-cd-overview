@@ -1,9 +1,14 @@
 {
   "name": "ci-cd-overview",
   "version": "0.1.0",
-  "homepage":"https://mikkelzu.github.io/ci-cd-overview",
+  "homepage": "https://mikkelzu.github.io/ci-cd-overview",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.0",
+    "@fortawesome/fontawesome-svg-core": "^6.1.0",
+    "@fortawesome/free-regular-svg-icons": "^6.1.0",
+    "@fortawesome/free-solid-svg-icons": "^6.1.0",
+    "@fortawesome/react-fontawesome": "*",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
     "@testing-library/user-event": "^13.5.0",
@@ -19,12 +24,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
