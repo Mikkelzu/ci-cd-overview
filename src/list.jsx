@@ -1,5 +1,6 @@
 import React, { useCallback } from 'react'
 import './list.css'
+import Spinner from './spinner';
 
 
 // https://api.github.com/repos/mikkelzu/onlycodes/actions/runs/1953308688/jobs TODO: make singular jobs
@@ -21,7 +22,11 @@ const List = () => {
     }, [getItems]);
 
     if (!dataIsLoaded) {
-        return <><h1>Loading...</h1></>
+        return (
+			<>
+				<Spinner />
+			</>
+		)
     }
 
         return (
